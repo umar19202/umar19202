@@ -26,7 +26,7 @@ Results-driven **Senior PHP Laravel Developer** with **4+ years of professional 
 
 I specialize in **backend architecture**, **RESTful API design**, **real-time systems**, and **cloud deployments**. I have built and shipped **8+ production applications** across healthcare ERP, sports streaming, fintech payment platforms, and social media — handling **1M+ chat rooms** and **~20M messages** in live environments.
 
-- 🔭 Currently working at **AppCrates** — building Laravel-based systems for international clients
+- 🔭 building Laravel-based systems for international clients
 - 🌱 Focused on clean code, SOLID principles, and scalable backend architecture
 - 💬 Ask me about **Laravel**, **RESTful APIs**, **WebSockets**, **Stripe**, **AWS**, **Docker**, **CI/CD**
 - 📫 Reach me at **umar.saeed19202@gmail.com**
