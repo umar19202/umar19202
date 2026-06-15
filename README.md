@@ -1,4 +1,4 @@
-<h1 align="center">Muhammad Umar Saeed</h1>
+<h1 align="center">Umar Saeed</h1>
 
 <p align="center">
   <strong>Senior PHP Laravel Developer &nbsp;·&nbsp; Backend Engineer &nbsp;·&nbsp; API & Systems Specialist</strong>
