@@ -216,7 +216,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 **Tech:** `PHP (Laravel)` `MySQL` `RESTful APIs` `JavaScript` `RBAC` `Laravel Sanctum`
 
-🔗 [casperspro.com](http://caspersservice.com/)
+🔗 [caspersservice.com](http://caspersservice.com/)
 
 ---
 
