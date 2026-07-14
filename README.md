@@ -1,7 +1,7 @@
 <h1 align="center">Umar Saeed</h1>
 
 <p align="center">
-  <strong>Senior PHP / Laravel Backend Engineer &nbsp;·&nbsp; Full-Stack with Vue.js & Inertia.js &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
+  <strong>Full-Stack Developer &nbsp;·&nbsp; Laravel + Vue.js &nbsp;·&nbsp; Multi-Tenant & SaaS Architecture</strong>
 </p>
 
 <p align="center">
@@ -26,17 +26,14 @@
 
 ## 👨‍💻 About Me
 
-Senior Backend Engineer with **5 years of professional experience** designing and delivering production-grade REST APIs, SaaS platforms, and multi-tenant systems using **Laravel 8–12** and **PHP 8.x**. Experienced across healthcare ERP, fintech, sports streaming, and e-commerce domains, including a communication architecture that handles **20M+ messages across 1M+ active chat rooms**. Strong on clean architecture (Service, Repository, DTO, Policy patterns), automated testing with PHPUnit, static analysis with **PHPStan Level 6**, and GitHub Actions CI/CD. My main focus is backend, but I also build the frontend on my own projects using **Vue 3 (Composition API, Pinia, Vue Router)** or **Inertia.js** when the project needs it. Comfortable in remote, agile teams — I've worked with clients in Italy and Turkey.
+Full-stack developer with **5 years of production Laravel experience**, building REST APIs, multi-tenant SaaS platforms, and communication systems for clients in healthcare, fintech, sports streaming, and social commerce. Backend work is built on **Service, Repository, DTO, and Policy patterns**, tested with PHPUnit, checked with PHPStan Level 6, and shipped through GitHub Actions CI/CD; the largest of these systems, a multi-tenant healthcare communication ERP, scaled to handle **20M+ messages across 1M+ chat rooms**. Frontend has been part of that work throughout rather than an afterthought: jQuery and Axios-driven dashboards on earlier projects, and **Vue 3 (Composition API, Pinia, Vue Router)** and **Inertia.js** SPAs on more recent ones, including **TaskFlow**, an open-source Laravel 12 + Vue 3 project covered in detail below. Comfortable owning both layers of a Laravel + Vue.js application, from database design to UI state.
 
-- 🔭 Built **TaskFlow**, a full-stack Laravel 12 + Vue 3 SPA: clean backend architecture (Service / Repository / DTO / Policy) with a Pinia + Vue Router frontend on top of its own REST API
-- 🏗️ Deep expertise in **Service / Repository / DTO / Policy** design patterns and **SOLID principles**
-- 🎨 Also comfortable on the frontend side: **Vue 3, Pinia, Vue Router, Inertia.js, Tailwind CSS v4**, building the UI on top of my own Laravel APIs
-- 🧪 Practitioner of **PHPUnit** integration & unit testing and **PHPStan Level 6** static analysis
-- ☁️ Experienced with **AWS S3**, **Docker**, **GitHub Actions CI/CD**, and multi-tenant deployments
-- 💬 Ask me about **Laravel**, **Vue.js**, **Inertia.js**, **RESTful APIs**, **WebSockets**, **Stripe**, **Redis**, **Queues**, **Event-Driven Architecture**
-- 🤖 Proficient with AI-assisted development: **ChatGPT, Claude, Cursor, GitHub Copilot, Gemini**
-- 📫 Reach me at **umar.saeed19202@gmail.com** · **+92 320 794 1139**
-- 🌍 Open to **remote opportunities worldwide** — available across all time zones
+- **Backend:** Laravel 8–12, PHP 8.x, Service/Repository/DTO/Policy patterns, Sanctum, multi-tenancy, Redis, MySQL, PostgreSQL
+- **Frontend:** Vue 3 (Composition API), Pinia, Vue Router, Inertia.js, Axios, jQuery, Tailwind CSS v4
+- **Testing & quality:** PHPUnit, PHPStan Level 6, Laravel Pint
+- **Infrastructure:** Docker, GitHub Actions CI/CD, AWS S3
+- 📫 **umar.saeed19202@gmail.com** · **+92 320 794 1139**
+- 🌍 Open to remote full-stack Laravel + Vue.js roles worldwide
 
 ---
 
@@ -170,30 +167,17 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### ⚙️ TaskFlow — Full-Stack Laravel 12 + Vue 3 SaaS *(Portfolio)*
-> Full-stack project management SPA. A **Laravel 12 REST API** with a strict layered backend (Controller → Service → Repository → DTO → Policy), and a **Vue 3 (Composition API) + Pinia + Vue Router** frontend I built on top of it in the same repo.
+### ⚙️ TaskFlow — Full-Stack Laravel 12 + Vue 3 SaaS *(Portfolio · Centerpiece Project)*
+> Project management SPA built and maintained end to end — a Laravel 12 REST API paired with the Vue 3 SPA that consumes it, both in one repository.
 
-**Backend Architecture & Patterns**
-- **Clean layered architecture** — Controller → Service → Repository → DTO → Policy, with Action classes for single-purpose operations (assign task, change status, archive project)
-- **Composable query filter chain** — `TaskQueryFilter` for dynamic task listing by status, priority, assignee, overdue, sort
-- **Domain Events** — `TaskStatusChanged`, `TaskCreated`, `CommentPosted`, `ProjectCreated` driving async side effects via Listeners & queued Jobs
-- **Redis Russian Doll caching** — task list cache key embeds `project.updated_at` so any task/comment write auto-busts all filter variants
-- **Redis sliding-window rate limiting** — separate `auth`, `writes`, and `api` limiters, standardized 429 JSON responses
-- **Structured JSON logging** with per-request context (`request_id`, `user_id`, `ip`) propagated into queued jobs
-- **Health check endpoint** monitoring database, Redis, cache, and queue connectivity
-- **Standardized JSON envelope** — consistent `success/message/data/meta` shape across success, paginated, and error responses
-
-**Frontend — Vue 3 SPA**
-- **Composition API** (`<script setup>`) with **Pinia** for auth/state and **Vue Router** for lazy-loaded routes, navigation guards, and 404 handling
-- Project & task management pages with full CRUD forms, filtering, and a task detail modal (inline status/priority/assignee editing)
-- Jira-style paginated comment threads, a polling notification bell (10s interval, no WebSockets needed), and a live dashboard with stat cards and an SVG task-flow chart
-- Authenticated Axios client with automatic bearer-token injection and 401 redirect handling
-- **Tailwind CSS v4** with custom design tokens, built via **Vite**
-
-**Quality & DevOps**
-- **PHPUnit** feature/unit suites, **PHPStan Level 6** static analysis, **Laravel Pint** code style
-- **GitHub Actions CI/CD** — lint, static analysis, and test pipeline plus a separate deploy workflow
-- **Docker / Docker Compose** — multi-stage build with app, nginx, MySQL, Redis, and queue worker services
+**What's built**
+- Laravel 12 REST API layered **Controller → Service → Repository → DTO → Policy**, with single-purpose Action classes for core operations
+- Vue 3 SPA (Composition API, Pinia, Vue Router, Axios) in `resources/js`, fully decoupled from the API — no shared session state, no Blade views
+- Domain events (`TaskStatusChanged`, `TaskCreated`, `CommentPosted`, `ProjectCreated`) driving queued Jobs and Listeners
+- Redis caching with automatic invalidation on task/comment writes, plus sliding-window rate limiting on auth, writes, and API endpoints
+- Sanctum-based auth flow — bearer token issued on login, Axios attaches it automatically, route guards handle 401s on the frontend
+- Project, task, and comment CRUD, a live dashboard, and a polling notification bell
+- PHPUnit test suites, PHPStan Level 6 static analysis, and a GitHub Actions CI/CD pipeline running lint, tests, and deploy
 
 **Tech:** `Laravel 12` `PHP 8.2` `Vue 3` `Pinia` `Vue Router 4` `Tailwind CSS v4` `Vite` `Axios` `MySQL` `Redis` `Laravel Sanctum` `PHPUnit` `PHPStan Level 6` `Laravel Pint` `GitHub Actions` `Docker` `Docker Compose` `Domain Events` `DTOs` `Repository Pattern` `Policy Authorization`
 
@@ -274,7 +258,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ## 📬 Get In Touch
 
-I am open to **senior remote Laravel/PHP backend roles** worldwide, including full-stack positions that pair Laravel with **Vue.js or Inertia.js**. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
+I am open to **senior remote full-stack roles pairing Laravel with Vue.js**, as well as backend-focused Laravel/PHP positions. If you are building something with Laravel, Vue.js, REST APIs, real-time systems, or payment integrations, let's talk.
 
 - 📧 **Email:** umar.saeed19202@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/umar-saeed09](https://linkedin.com/in/umar-saeed09)
