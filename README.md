@@ -1,7 +1,7 @@
 <h1 align="center">Umar Saeed</h1>
 
 <p align="center">
-  <strong>Senior PHP / Laravel Backend Engineer &nbsp;·&nbsp; API & Systems Specialist &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
+  <strong>Senior PHP / Laravel Backend Engineer &nbsp;·&nbsp; Full-Stack with Vue.js & Inertia.js &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
 </p>
 
 <p align="center">
@@ -26,13 +26,14 @@
 
 ## 👨‍💻 About Me
 
-Senior Backend Engineer with **5 years of professional experience** designing and delivering production-grade REST APIs, SaaS platforms, and multi-tenant systems using **Laravel 8–12** and **PHP 8.x**. Experienced across healthcare ERP, fintech, sports streaming, and e-commerce domains — including engineering a communication architecture scaled to **20M+ messages across 1M+ active chat rooms**. Strong expertise in clean architecture (Service, Repository, DTO, Policy patterns), automated testing via PHPUnit, static analysis using **PHPStan Level 6**, and GitHub Actions CI/CD pipelines. Proven track record driving agile collaboration with international remote teams across Italy and Turkey to deliver high-performance enterprise solutions.
+Senior Backend Engineer with **5 years of professional experience** designing and delivering production-grade REST APIs, SaaS platforms, and multi-tenant systems using **Laravel 8–12** and **PHP 8.x**. Experienced across healthcare ERP, fintech, sports streaming, and e-commerce domains, including a communication architecture that handles **20M+ messages across 1M+ active chat rooms**. Strong on clean architecture (Service, Repository, DTO, Policy patterns), automated testing with PHPUnit, static analysis with **PHPStan Level 6**, and GitHub Actions CI/CD. My main focus is backend, but I also build the frontend on my own projects using **Vue 3 (Composition API, Pinia, Vue Router)** or **Inertia.js** when the project needs it. Comfortable in remote, agile teams — I've worked with clients in Italy and Turkey.
 
-- 🔭 Built **TaskFlow API** — a production-grade Laravel 12 portfolio project showcasing **clean architecture**, **RESTful APIs**, **SOLID principles**, and **Service / Repository / DTO / Policy patterns**
+- 🔭 Built **TaskFlow**, a full-stack Laravel 12 + Vue 3 SPA: clean backend architecture (Service / Repository / DTO / Policy) with a Pinia + Vue Router frontend on top of its own REST API
 - 🏗️ Deep expertise in **Service / Repository / DTO / Policy** design patterns and **SOLID principles**
+- 🎨 Also comfortable on the frontend side: **Vue 3, Pinia, Vue Router, Inertia.js, Tailwind CSS v4**, building the UI on top of my own Laravel APIs
 - 🧪 Practitioner of **PHPUnit** integration & unit testing and **PHPStan Level 6** static analysis
 - ☁️ Experienced with **AWS S3**, **Docker**, **GitHub Actions CI/CD**, and multi-tenant deployments
-- 💬 Ask me about **Laravel**, **RESTful APIs**, **WebSockets**, **Stripe**, **Redis**, **Queues**, **Event-Driven Architecture**
+- 💬 Ask me about **Laravel**, **Vue.js**, **Inertia.js**, **RESTful APIs**, **WebSockets**, **Stripe**, **Redis**, **Queues**, **Event-Driven Architecture**
 - 🤖 Proficient with AI-assisted development: **ChatGPT, Claude, Cursor, GitHub Copilot, Gemini**
 - 📫 Reach me at **umar.saeed19202@gmail.com** · **+92 320 794 1139**
 - 🌍 Open to **remote opportunities worldwide** — available across all time zones
@@ -99,6 +100,12 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 **Frontend & SPA**
 
+![Vue.js](https://img.shields.io/badge/Vue.js_3-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat&logo=pinia&logoColor=black)
+![Vue Router](https://img.shields.io/badge/Vue_Router_4-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
@@ -122,18 +129,20 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ### Senior PHP / Laravel Backend Engineer — Ventie 30
 **May 2025 – May 2026 &nbsp;|&nbsp; Italy (Remote)**
+**Client project:** World Baseball Softball Confederation (WBSC) — [wbsc.org](https://www.wbsc.org/en)
 
-- Architected a **multi-module sports data management ERP** for the **World Baseball Softball Confederation (WBSC)** to power complex international sports workflows
+- Architected a **multi-module sports data management ERP** for the **World Baseball Softball Confederation (WBSC)**, the global governing body for baseball and softball, to power complex international sports workflows
 - Developed a custom **Google Sheets API integration engine** to dynamically drive platform-wide system permissions, form field mapping, and localized multilingual support configurations
 - Designed robust **form-to-database backend engines** that dynamically process and structure incoming athletic configuration datasets
 - Engineered high-performance **RESTful APIs** integrated with asynchronous AJAX workflows to dynamically load tab-specific data on demand, reducing initial page load times and delivering a seamless single-page experience
 
-🔗 [ventie30.it](https://www.ventie30.it)
+🔗 Employer: [ventie30.it](https://www.ventie30.it) &nbsp;·&nbsp; Client: [wbsc.org](https://www.wbsc.org/en)
 
 ---
 
 ### Senior Full-Stack PHP / Laravel Developer — ExtraTrik
 **Aug 2023 – Apr 2025 &nbsp;|&nbsp; Istanbul, Turkey (Remote)**
+**Client product:** ToMerge — [tomerge.com](https://tomerge.com/)
 
 - Engineered a **multi-tenant communication ERP**, implementing a custom centralized authentication system to securely isolate data, webhooks, and multi-tenant traffic across multiple Turkish healthcare clinics
 - Built a real-time, **3-column SPA communication dashboard** using JavaScript, jQuery, and Axios to integrate Zoho CRM with omnichannel chats (WhatsApp, Messenger, Instagram), Twilio video, and OpenAI translation/grammar-checking APIs without page reloads
@@ -142,7 +151,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 - Developed **asynchronous background workflows** using Laravel Queues to process high-volume bulk chat data imports, architecting custom state mechanics to safely handle start, pause, and resume execution states
 - Collaborated within a remote Agile environment writing **PHPUnit test suites** and leveraging **GitHub Actions CI/CD** pipelines, Git branch workflows, and QA staging environments to maintain production deployment quality
 
-🔗 [extratik.com](https://extratik.com)
+🔗 Employer: **ExtraTrik** &nbsp;·&nbsp; Product: [tomerge.com](https://tomerge.com/)
 
 ---
 
@@ -161,44 +170,60 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### ⚙️ TaskFlow API — Laravel 12 SaaS Backend *(Portfolio)*
-> Production-grade **Laravel 12 REST API** for project and task management, purpose-built to demonstrate senior-level backend engineering standards. Implements a strict layered architecture (Controller → Service → Repository → DTO) with full test coverage, static analysis, and automated CI/CD.
+### ⚙️ TaskFlow — Full-Stack Laravel 12 + Vue 3 SaaS *(Portfolio)*
+> Full-stack project management SPA. A **Laravel 12 REST API** with a strict layered backend (Controller → Service → Repository → DTO → Policy), and a **Vue 3 (Composition API) + Pinia + Vue Router** frontend I built on top of it in the same repo.
 
-**Architecture & Patterns**
-- **Clean layered architecture** — Controller → Service → Repository → DTO → Policy, with Action classes for single-purpose operations
+**Backend Architecture & Patterns**
+- **Clean layered architecture** — Controller → Service → Repository → DTO → Policy, with Action classes for single-purpose operations (assign task, change status, archive project)
 - **Composable query filter chain** — `TaskQueryFilter` for dynamic task listing by status, priority, assignee, overdue, sort
-- **Domain Events** — `TaskStatusChanged`, `TaskCreated`, `CommentPosted` events driving async side effects via Listeners & queued Jobs
+- **Domain Events** — `TaskStatusChanged`, `TaskCreated`, `CommentPosted`, `ProjectCreated` driving async side effects via Listeners & queued Jobs
 - **Redis Russian Doll caching** — task list cache key embeds `project.updated_at` so any task/comment write auto-busts all filter variants
-- **DB transactions with after-commit dispatch** — comment creation is wrapped in a transaction; events fire only after the commit
-- **PHP 8.1 backed Enums** — for task status and priority values
-- **Standardized JSON envelope** — `app/Support/ApiResponse.php` wrapper for consistent API responses
+- **Redis sliding-window rate limiting** — separate `auth`, `writes`, and `api` limiters, standardized 429 JSON responses
+- **Structured JSON logging** with per-request context (`request_id`, `user_id`, `ip`) propagated into queued jobs
+- **Health check endpoint** monitoring database, Redis, cache, and queue connectivity
+- **Standardized JSON envelope** — consistent `success/message/data/meta` shape across success, paginated, and error responses
 
-**Modules Implemented**
-- Auth: register, login, logout, profile (Laravel Sanctum bearer token)
-- Projects: full CRUD with DTO-based partial updates and per-user Redis tag caching
-- Tasks: CRUD with soft delete, status/priority/assignee filters, pagination, and domain event dispatch
-- Comments: CRUD with `CommentPolicy` (author-only update, author or project owner delete)
-- Notifications: async queued database notifications for task assignment; paginated list, mark-read, mark-all-read endpoints
+**Frontend — Vue 3 SPA**
+- **Composition API** (`<script setup>`) with **Pinia** for auth/state and **Vue Router** for lazy-loaded routes, navigation guards, and 404 handling
+- Project & task management pages with full CRUD forms, filtering, and a task detail modal (inline status/priority/assignee editing)
+- Jira-style paginated comment threads, a polling notification bell (10s interval, no WebSockets needed), and a live dashboard with stat cards and an SVG task-flow chart
+- Authenticated Axios client with automatic bearer-token injection and 401 redirect handling
+- **Tailwind CSS v4** with custom design tokens, built via **Vite**
 
 **Quality & DevOps**
-- **PHPUnit** — unit and integration test suites under `tests/`
-- **PHPStan Level 6** — static analysis via `larastan/larastan` with `phpstan.neon.dist`
-- **Laravel Pint** — code style enforcement
-- **GitHub Actions CI/CD** — automated pipeline in `.github/workflows/`
-- **Docker / Docker Compose** — multi-stage containerized setup with `.dockerignore` and `docker/` config directory
+- **PHPUnit** feature/unit suites, **PHPStan Level 6** static analysis, **Laravel Pint** code style
+- **GitHub Actions CI/CD** — lint, static analysis, and test pipeline plus a separate deploy workflow
+- **Docker / Docker Compose** — multi-stage build with app, nginx, MySQL, Redis, and queue worker services
 
-**Tech:** `Laravel 12` `PHP 8.2` `MySQL` `Redis` `Predis` `Laravel Sanctum` `PHPUnit` `PHPStan Level 6` `Laravel Pint` `GitHub Actions` `Docker` `Docker Compose` `Queues` `Domain Events` `DTOs` `Repository Pattern` `Policy Authorization` `Russian Doll Caching`
+**Tech:** `Laravel 12` `PHP 8.2` `Vue 3` `Pinia` `Vue Router 4` `Tailwind CSS v4` `Vite` `Axios` `MySQL` `Redis` `Laravel Sanctum` `PHPUnit` `PHPStan Level 6` `Laravel Pint` `GitHub Actions` `Docker` `Docker Compose` `Domain Events` `DTOs` `Repository Pattern` `Policy Authorization`
 
 🔗 [github.com/umar19202/taskflow-api](https://github.com/umar19202/taskflow-api)
 
 ---
 
-### 🏥 ExtraTrik — Multi-Tenant Healthcare Communication ERP
-> Multi-tenant ERP serving multiple Turkish clinics with fully isolated dashboards, **1M+ chat rooms**, **~20M messages**, Twilio audio/video calling with AI-powered real-time message translation, WhatsApp / Instagram / Messenger multi-channel integration, template messaging, multimedia sharing, and Zoho CRM for patient record management.
+### 📦 Inventory Management System — Laravel 12 + Inertia.js *(Portfolio · In Progress)*
+> An inventory & operations dashboard on the **Inertia.js + Vue 3** stack (server-driven pages, no separate API layer). Currently in progress — auth, RBAC, and the dashboard shell are built, inventory modules are next.
+
+**What's built so far**
+- Laravel 12 backend with **Inertia.js v3** rendering Vue 3 pages server-driven, no separate API layer
+- **Spatie `laravel-permission`** — role/permission tables migrated, with a `PermissionMatrix.vue` component for assigning them
+- **Spatie `laravel-activitylog`** — audit trail table wired in from the start
+- Auth flow (login, register, logout) and an authenticated dashboard shell with a shared `AppLayout.vue` (sidebar + topbar)
+- **ApexCharts** (via `vue3-apexcharts`) wired in for the dashboard's data visualizations
+- Reusable components in place: pagination, confirm modal, flash messages, page loader
+
+**Tech:** `Laravel 12` `PHP 8.2` `Inertia.js` `Vue 3` `Tailwind CSS v4` `Vite` `Spatie Permission` `Spatie Activity Log` `ApexCharts` `MySQL`
+
+🔗 [github.com/umar19202/inventory-management-system](https://github.com/umar19202/inventory-management-system)
+
+---
+
+### 🏥 ToMerge — Multi-Tenant Healthcare Communication ERP
+> Built while employed at **ExtraTrik** (Istanbul, Turkey). Multi-tenant ERP serving multiple Turkish clinics with fully isolated dashboards, **1M+ chat rooms**, **~20M messages**, Twilio audio/video calling with AI-powered real-time message translation, WhatsApp / Instagram / Messenger multi-channel integration, template messaging, multimedia sharing, and Zoho CRM for patient record management.
 
 **Tech:** `PHP (Laravel)` `MySQL` `Redis` `WebSockets` `Twilio SDK` `GupShup` `Meta API` `OpenAI API` `AWS S3` `RESTful APIs` `jQuery` `Axios`
 
-🔗 [extratik.com](https://extratik.com)
+🔗 [tomerge.com](https://tomerge.com/)
 
 ---
 
@@ -249,7 +274,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ## 📬 Get In Touch
 
-I am open to **senior remote Laravel/PHP backend roles** worldwide. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations — let's talk.
+I am open to **senior remote Laravel/PHP backend roles** worldwide, including full-stack positions that pair Laravel with **Vue.js or Inertia.js**. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
 
 - 📧 **Email:** umar.saeed19202@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/muhammad-umar-saeed09](https://linkedin.com/in/muhammad-umar-saeed09)
