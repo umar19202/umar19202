@@ -125,7 +125,7 @@ Full-stack developer with **5 years of production Laravel experience**, building
 ---
 
 ### Senior PHP / Laravel Backend Engineer — Ventie 30
-**May 2025 – May 2026 &nbsp;|&nbsp; Italy (Remote)**
+**May 2025 – June 2026 &nbsp;|&nbsp; Italy (Remote)**
 **Client project:** World Baseball Softball Confederation (WBSC) — [wbsc.org](https://www.wbsc.org/en)
 
 - Architected a **multi-module sports data management ERP** for the **World Baseball Softball Confederation (WBSC)**, the global governing body for baseball and softball, to power complex international sports workflows
