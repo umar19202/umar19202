@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Email-umar.saeed19202%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/muhammad-umar-saeed09">
+  <a href="https://linkedin.com/in/umar-saeed09">
     <img src="https://img.shields.io/badge/LinkedIn-Umar_Saeed-0077B5?style=flat&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
@@ -277,7 +277,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 I am open to **senior remote Laravel/PHP backend roles** worldwide, including full-stack positions that pair Laravel with **Vue.js or Inertia.js**. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
 
 - 📧 **Email:** umar.saeed19202@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/muhammad-umar-saeed09](https://linkedin.com/in/muhammad-umar-saeed09)
+- 💼 **LinkedIn:** [linkedin.com/in/umar-saeed09](https://linkedin.com/in/umar-saeed09)
 - 🌐 **Portfolio:** [umar19202.github.io](https://umar19202.github.io)
 - 🐙 **GitHub:** [github.com/umar19202](https://github.com/umar19202)
 - 📱 **Phone:** +92 320 794 1139
