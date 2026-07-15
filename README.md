@@ -1,7 +1,7 @@
 <h1 align="center">Umar Saeed</h1>
 
 <p align="center">
-  <strong>Full-Stack Developer &nbsp;·&nbsp; Laravel + Vue.js &nbsp;·&nbsp; Multi-Tenant & SaaS Architecture</strong>
+  <strong>Senior PHP / Laravel Backend Engineer &nbsp;·&nbsp; Vue.js Frontend &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
 </p>
 
 <p align="center">
@@ -19,21 +19,24 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Location-Gujranwala,_Pakistan-brightgreen?style=flat&logo=google-maps&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Remote-Open_Worldwide-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Open_to-Remote_%26_Onsite-blue?style=flat" />
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Full-stack developer with **5 years of production Laravel experience**, building REST APIs, multi-tenant SaaS platforms, and communication systems for clients in healthcare, fintech, sports streaming, and social commerce. Backend work is built on **Service, Repository, DTO, and Policy patterns**, tested with PHPUnit, checked with PHPStan Level 6, and shipped through GitHub Actions CI/CD; the largest of these systems, a multi-tenant healthcare communication ERP, scaled to handle **20M+ messages across 1M+ chat rooms**. Frontend has been part of that work throughout rather than an afterthought: jQuery and Axios-driven dashboards on earlier projects, and **Vue 3 (Composition API, Pinia, Vue Router)** and **Inertia.js** SPAs on more recent ones, including **TaskFlow**, an open-source Laravel 12 + Vue 3 project covered in detail below. Comfortable owning both layers of a Laravel + Vue.js application, from database design to UI state.
+Senior Backend Engineer with **5 years of professional experience** designing and delivering production-grade **REST APIs**, **SaaS platforms**, and **multi-tenant systems** using **Laravel 8–12** and **PHP 8.x**. Experienced across healthcare ERP, fintech, sports streaming, and e-commerce domains, including engineering a communication architecture scaled to **20M+ messages across 1M+ active chat rooms**. Strong expertise in clean architecture (**Service, Repository, DTO, Policy** patterns), automated testing via **PHPUnit**, static analysis using **PHPStan Level 6**, and **GitHub Actions CI/CD** pipelines. Alongside that backend focus, I bring practical frontend experience with **Vue 3** (Composition API), **Pinia**, **Vue Router**, and **Inertia.js**, most visibly on **TaskFlow**, a Laravel 12 + Vue 3 portfolio project I designed and built end to end. Proven track record driving Agile collaboration with international remote teams across Italy and Turkey to deliver high-performance enterprise solutions.
 
-- **Backend:** Laravel 8–12, PHP 8.x, Service/Repository/DTO/Policy patterns, Sanctum, multi-tenancy, Redis, MySQL, PostgreSQL
-- **Frontend:** Vue 3 (Composition API), Pinia, Vue Router, Inertia.js, Axios, jQuery, Tailwind CSS v4
-- **Testing & quality:** PHPUnit, PHPStan Level 6, Laravel Pint
-- **Infrastructure:** Docker, GitHub Actions CI/CD, AWS S3
+- 🔭 Built **TaskFlow API** — a production-grade **Laravel 12** API paired with a **Vue 3** (Pinia, Vue Router) frontend, showcasing clean architecture and end-to-end ownership of both layers
+- 🏗️ Deep expertise in **Service / Repository / DTO / Policy** design patterns and **SOLID principles**
+- 🎨 Practical frontend experience with **Vue 3** (Composition API), **Pinia**, **Vue Router**, **Inertia.js**, and **jQuery**
+- 🧪 Practitioner of **PHPUnit** integration & unit testing and **PHPStan Level 6** static analysis
+- ☁️ Experienced with **AWS S3**, **Docker**, **GitHub Actions CI/CD**, and multi-tenant deployments
+- 💬 Ask me about **Laravel**, **RESTful APIs**, **WebSockets**, **Stripe**, **Redis**, **Queues**, **Event-Driven Architecture**
+- 🤖 Proficient with AI-assisted development: **ChatGPT**, **Claude**, **Cursor**, **GitHub Copilot**, **Gemini**
 - 📫 **umar.saeed19202@gmail.com** · **+92 320 794 1139**
-- 🌍 Open to remote full-stack Laravel + Vue.js roles worldwide
+- 🌍 Open to **remote and onsite backend and Laravel + Vue.js roles**, available across all time zones
 
 ---
 
@@ -258,7 +261,7 @@ Full-stack developer with **5 years of production Laravel experience**, building
 
 ## 📬 Get In Touch
 
-I am open to **senior remote full-stack roles pairing Laravel with Vue.js**, as well as backend-focused Laravel/PHP positions. If you are building something with Laravel, Vue.js, REST APIs, real-time systems, or payment integrations, let's talk.
+I am open to **senior PHP / Laravel backend roles**, remote or onsite, including positions that also value practical **Vue.js** frontend experience. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
 
 - 📧 **Email:** umar.saeed19202@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/umar-saeed09](https://linkedin.com/in/umar-saeed09)
