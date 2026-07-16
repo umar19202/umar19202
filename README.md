@@ -1,7 +1,7 @@
 <h1 align="center">Umar Saeed</h1>
 
 <p align="center">
-  <strong>Senior PHP / Laravel Backend Engineer &nbsp;·&nbsp; Vue.js Frontend &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
+  <strong>Senior Full-Stack PHP Laravel Developer &nbsp;·&nbsp; Vue.js 3 & Inertia.js &nbsp;·&nbsp; Multi-Tenant & SaaS Architect</strong>
 </p>
 
 <p align="center">
@@ -26,9 +26,9 @@
 
 ## 👨‍💻 About Me
 
-Senior Backend Engineer with **5 years of professional experience** designing and delivering production-grade **REST APIs**, **SaaS platforms**, and **multi-tenant systems** using **Laravel 8–12** and **PHP 7.x-8.x**. Experienced across healthcare ERP, fintech, sports streaming, and e-commerce domains, including engineering a communication architecture scaled to **20M+ messages across 1M+ active chat rooms**. Strong expertise in clean architecture (**Service, Repository, DTO, Policy** patterns), automated testing via **PHPUnit**, static analysis using **PHPStan Level 6**, and **GitHub Actions CI/CD** pipelines. Alongside that backend focus, I bring practical frontend experience with **Vue 3** (Composition API), **Pinia**, **Vue Router**, and **Inertia.js**, most visibly on **TaskFlow**, a Laravel 12 + Vue 3 portfolio project I designed and built end to end. Proven track record driving Agile collaboration with international remote teams across Italy and Turkey to deliver high-performance enterprise solutions.
+Senior Full-Stack PHP Laravel Developer with **5 years of professional experience** designing and delivering production-grade **REST APIs**, **SaaS platforms**, and **multi-tenant applications** using **PHP 7/8** and **Laravel 8-12**. Worked across **healthcare ERP, fintech, sports streaming, and e-commerce** domains, including architecting communication systems supporting over **20 million messages across 1 million+ chat rooms**. Strong expertise in clean architecture, RESTful API design, Service and Repository patterns, DTOs, Policies, authentication, PHPUnit, PHPStan, and GitHub Actions CI/CD. Full-stack development experience with **JavaScript, jQuery, Axios, Vue.js 3, Pinia, Vue Router**, and **Inertia.js**, building modern Laravel + Vue applications. Skilled in **Docker, Redis, Laravel Queues**, and **AWS S3** for scalable backend infrastructure. Collaborated with international teams in Turkey and Italy using Agile methodologies, Git workflows, and engineering best practices. Applied AI-assisted development workflows with LLM-powered tools to improve engineering productivity.
 
-- 🔭 Built **TaskFlow API** — a production-grade **Laravel 12** API paired with a **Vue 3** (Pinia, Vue Router) frontend, showcasing clean architecture and end-to-end ownership of both layers
+- 🔭 Built **TaskFlow** — a production-grade **Laravel 12** API paired with a **Vue 3** (Pinia, Vue Router) frontend, showcasing clean architecture and end-to-end ownership of both layers
 - 🏗️ Deep expertise in **Service / Repository / DTO / Policy** design patterns and **SOLID principles**
 - 🎨 Practical frontend experience with **Vue 3** (Composition API), **Pinia**, **Vue Router**, **Inertia.js**, and **jQuery**
 - 🧪 Practitioner of **PHPUnit** integration & unit testing and **PHPStan Level 6** static analysis
@@ -127,7 +127,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### Senior PHP / Laravel Backend Engineer — Ventie 30
+### Senior Full-Stack PHP Laravel Developer — Ventie 30
 **May 2025 – June 2026 &nbsp;|&nbsp; Italy (Remote)**
 **Client project:** World Baseball Softball Confederation (WBSC) — [wbsc.org](https://www.wbsc.org/en)
 
@@ -140,7 +140,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### Senior Full-Stack PHP / Laravel Developer — ExtraTrik
+### Senior Full-Stack PHP Laravel Developer — ExtraTrik
 **Aug 2023 – Apr 2025 &nbsp;|&nbsp; Istanbul, Turkey (Remote)**
 **Client product:** ToMerge — [tomerge.com](https://tomerge.com/)
 
@@ -155,7 +155,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### PHP / Laravel Developer — AppCrates
+### PHP Laravel Developer — AppCrates
 **Sep 2021 – Aug 2023 &nbsp;|&nbsp; Gujranwala, Pakistan**
 
 - Designed secure backend systems using **Sanctum, JWT, and Laravel Socialite** (OAuth, Apple Sign-In) with RBAC, enforcing Form Request validation, rate limiting, CSRF protection, and parameterized queries to prevent SQL injection
@@ -188,20 +188,12 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ---
 
-### 📦 Inventory Management System — Laravel 12 + Inertia.js *(Portfolio · In Progress)*
-> An inventory & operations dashboard on the **Inertia.js + Vue 3** stack (server-driven pages, no separate API layer). Currently in progress — auth, RBAC, and the dashboard shell are built, inventory modules are next.
+### 🏆 WBSC — Sports Data Management ERP
+> Built while employed at **Ventie 30** (Italy, Remote) for the **World Baseball Softball Confederation (WBSC)**. A multi-module sports data management ERP powering complex international sports workflows, with a custom Google Sheets API integration engine dynamically driving platform-wide permissions, form field mapping, and localized multilingual support configurations. Includes robust form-to-database engines processing incoming athletic configuration datasets, plus high-performance RESTful APIs paired with JavaScript/AJAX workflows for on-demand tab loading and a seamless SPA experience.
 
-**What's built so far**
-- Laravel 12 backend with **Inertia.js v3** rendering Vue 3 pages server-driven, no separate API layer
-- **Spatie `laravel-permission`** — role/permission tables migrated, with a `PermissionMatrix.vue` component for assigning them
-- **Spatie `laravel-activitylog`** — audit trail table wired in from the start
-- Auth flow (login, register, logout) and an authenticated dashboard shell with a shared `AppLayout.vue` (sidebar + topbar)
-- **ApexCharts** (via `vue3-apexcharts`) wired in for the dashboard's data visualizations
-- Reusable components in place: pagination, confirm modal, flash messages, page loader
+**Tech:** `PHP (Laravel)` `MySQL` `JavaScript` `AJAX` `RESTful APIs` `Google Sheets API`
 
-**Tech:** `Laravel 12` `PHP 8.2` `Inertia.js` `Vue 3` `Tailwind CSS v4` `Vite` `Spatie Permission` `Spatie Activity Log` `ApexCharts` `MySQL`
-
-🔗 [github.com/umar19202/inventory-management-system](https://github.com/umar19202/inventory-management-system)
+🔗 [wbsc.org](https://www.wbsc.org/en)
 
 ---
 
@@ -261,7 +253,7 @@ Senior Backend Engineer with **5 years of professional experience** designing an
 
 ## 📬 Get In Touch
 
-I am open to **senior PHP / Laravel backend roles**, remote or onsite, including positions that also value practical **Vue.js** frontend experience. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
+I am open to **senior full-stack PHP Laravel roles**, remote or onsite, including positions using **Vue.js** or **Inertia.js**. If you are building something with Laravel, REST APIs, real-time systems, or payment integrations, let's talk.
 
 - 📧 **Email:** umar.saeed19202@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/umar-saeed09](https://linkedin.com/in/umar-saeed09)
